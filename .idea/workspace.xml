@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fae944a4-457c-45fa-a6ba-6efbeb7ea229" name="Default Changelist" comment="" />
+    <list default="true" id="fae944a4-457c-45fa-a6ba-6efbeb7ea229" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/controller/runTetris.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/I.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/J.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/O.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/T.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/Z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/gameover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/tetris1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/I.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/J.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/L.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/O.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/S.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/Tetromino.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/Z.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/view/Tetris$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/view/Tetris$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/tetris/view/Tetris.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/runTetris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/I.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/J.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/O.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/T.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/Z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/gameover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/tetris1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Tetromino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Tetris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tetris.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +60,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cGctg9RnlS7TJ7j0huTTgqVnbH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/image" />
@@ -72,6 +122,7 @@
       <workItem from="1590301879672" duration="20967000" />
       <workItem from="1590337376344" duration="635000" />
       <workItem from="1590375518886" duration="1834000" />
+      <workItem from="1590407384726" duration="209000" />
     </task>
     <servers />
   </component>
