@@ -52,7 +52,7 @@ public class Tetris extends JPanel {
             I = ImageIO.read(Tetris.class.getResource("/image/I.png"));
             L = ImageIO.read(Tetris.class.getResource("/image/L.png"));
             pause = ImageIO.read(Tetris.class.getResource("/image/pause.png"));
-            tetris = ImageIO.read(Tetris.class.getResource("/image/tetris1.png"));
+            tetris = ImageIO.read(Tetris.class.getResource("/image/tetris.png"));
             gameover = ImageIO.read(Tetris.class.getResource("/image/gameover.png"));
             bgi = ImageIO.read(Tetris.class.getResource("/image/background.png"));
 
@@ -64,8 +64,8 @@ public class Tetris extends JPanel {
 
 
     public void action() {
-        tetromino = Tetromino.ranShape();
-        nextone = Tetromino.ranShape();
+        tetromino = Tetromino.randomShape();
+        nextone = Tetromino.randomShape();
 
         KeyListener kl = new KeyAdapter() {
             public void keyPressed(KeyEvent e) {
@@ -117,11 +117,15 @@ public class Tetris extends JPanel {
             case KeyEvent.VK_P:
                 STATE = !STATE;
                 break;// 暂停
+            case KeyEvent.VK_C:
+                STATE = true;
+                break; // 继续
             case KeyEvent.VK_SPACE:
                 moveToBottomAction();
                 break;
-            case KeyEvent.VK_R:
+            case KeyEvent.VK_I:
                 moveInitAction();
+                STATE = true;
                 break; // 重玩
             case KeyEvent.VK_E:
                 System.exit(0);
@@ -130,10 +134,9 @@ public class Tetris extends JPanel {
     }
 
     public void moveInitAction() {
-        //STATE = false;
         wall = new Cell[ROWS][COLS];
-        tetromino = Tetromino.ranShape();
-        nextone = Tetromino.ranShape();
+        tetromino = Tetromino.randomShape();
+        nextone = Tetromino.randomShape();
         score = 0;
         lines = 0;
         level = 6;
@@ -227,7 +230,7 @@ public class Tetris extends JPanel {
                 }
                 removeLine();
                 tetromino = nextone;
-                nextone = Tetromino.ranShape();
+                nextone = Tetromino.randomShape();
                 score += 10;
                 return true;
             }
@@ -287,7 +290,9 @@ public class Tetris extends JPanel {
     }
 
     /**
-     * @return
+     * 判断游戏是否结束
+     * 当有一个方块已经到顶、即wall[0]中存在一个方块对象
+     * @return boolean
      */
     public boolean isGameOver() {
         for (int col = 0; col < COLS; col++) {

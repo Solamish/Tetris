@@ -2,50 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae944a4-457c-45fa-a6ba-6efbeb7ea229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/controller/runTetris.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/I.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/J.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/O.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/S.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/T.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/Z.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/gameover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/image/tetris1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/Cell.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/I.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/J.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/L.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/O.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/S.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/T.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/Tetromino.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/model/Z.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/view/Tetris$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/view/Tetris$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tetris/view/Tetris.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/runTetris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/I.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/J.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/O.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/S.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/T.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/Z.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/gameover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/tetris1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Tetromino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Tetris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tetris.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris/image/tetris1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris/model/Tetromino.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tetris/model/Tetromino.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris/view/Tetris.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tetris/view/Tetris.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/tetris1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/tetris.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Tetromino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Tetromino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Tetris.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +51,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.runTetris">
+    <configuration name="ReadData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadData" />
+      <module name="tetris" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleEventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleEventDemo" />
+      <module name="tetris" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="runTetris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.runTetris" />
       <module name="tetris" />
@@ -105,6 +82,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.runTetris" />
+        <item itemvalue="Application.ReadData" />
+        <item itemvalue="Application.SimpleEventDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -122,11 +101,39 @@
       <workItem from="1590301879672" duration="20967000" />
       <workItem from="1590337376344" duration="635000" />
       <workItem from="1590375518886" duration="1834000" />
-      <workItem from="1590407384726" duration="209000" />
+      <workItem from="1590407384726" duration="364000" />
+      <workItem from="1590491631400" duration="3042000" />
+      <workItem from="1590825224469" duration="2417000" />
+      <workItem from="1590836962401" duration="1005000" />
+      <workItem from="1591016130508" duration="1174000" />
+      <workItem from="1591255946053" duration="1220000" />
+      <workItem from="1591441106025" duration="600000" />
+      <workItem from="1591505377086" duration="106000" />
+      <workItem from="1591598959419" duration="2520000" />
+      <workItem from="1591751994296" duration="268000" />
+      <workItem from="1591858798528" duration="46000" />
+      <workItem from="1592034964490" duration="415000" />
+      <workItem from="1592036905103" duration="3247000" />
+      <workItem from="1592147545606" duration="626000" />
+      <workItem from="1592153134656" duration="6170000" />
+      <workItem from="1592184607792" duration="997000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

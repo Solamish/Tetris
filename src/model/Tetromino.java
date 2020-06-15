@@ -51,7 +51,7 @@ public class Tetromino extends Cell {
         return iCells;
     }
 
-    public static Tetromino ranShape() {
+    public static Tetromino randomShape() {
         Random random = new Random();
         int index = random.nextInt(7);
         switch (index) {
